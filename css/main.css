@@ -154,11 +154,13 @@ nav ul li a {
 }
 
 #food h1,
-#weekly h1 {
+#weekly h1,
+#entrees h1 {
     color: #ff8c00;
 }
 
-#weekly {
+#weekly,
+#entrees {
     background-color: #ffffff;
     border-radius: 3em;
     border: solid #4169e1 0.3em;
@@ -168,7 +170,8 @@ nav ul li a {
     margin-right: 1em;
 }
 
-#weekly h2 {
+#weekly h2,
+#entrees h2 {
     color: #ff8c00;
 }
 
