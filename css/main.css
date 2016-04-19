@@ -131,11 +131,14 @@ nav ul li a {
     margin-right: 1em;
 }
 
-#food {
+#food,
+#beverages,
+#desserts,
+#entrees {
     background-color: #ffffff;
     border: solid #4169e1 0.3em;
     border-radius: 3em;
-    padding: 0.1em 1.5em 0.1em;
+    padding: 0.2em 1.5em 0.2em;
     margin-bottom: 1em;
     margin-top: 1em;
     margin-left: 1em;
@@ -153,25 +156,28 @@ nav ul li a {
     background-color: #4169e1;
 }
 
-#food h1,
-#weekly h1,
-#entrees h1 {
+#weekly h1 {
     color: #ff8c00;
 }
 
 #weekly,
-#entrees {
+#entrees,
+#food,
+#desserts {
     background-color: #ffffff;
     border-radius: 3em;
     border: solid #4169e1 0.3em;
     text-align: center;
     margin-left: 1em;
-    padding: 0.1em 1.5em 0.1em;
+    padding: 0.1em 1.5em 0.8em;
     margin-right: 1em;
 }
 
 #weekly h2,
-#entrees h2 {
+#entrees h2,
+#beverages h2,
+#food h2,
+#desserts h2 {
     color: #ff8c00;
 }
 
@@ -227,7 +233,7 @@ th,
 td {
     padding: 8px;
     text-align: left;
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 0.2em solid #dddddd;
 }
 
 @media (min-width: 650px) {
