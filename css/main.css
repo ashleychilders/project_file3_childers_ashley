@@ -260,6 +260,12 @@ td {
     border-bottom: 0.2em solid #dddddd;
 }
 
+#personal ul li {
+    display: inline;
+    width: 35%;
+    height: 35%;
+}
+
 @media (min-width: 650px) {
     #content,
     #sidebar {
