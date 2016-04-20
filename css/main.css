@@ -230,7 +230,7 @@ nav ul li a {
     color: #ffffff;
 }
 
-#daily h2:hover, {
+#daily h2:hover {
     color: #8a2be2;
     font-size: 135%;
 }
