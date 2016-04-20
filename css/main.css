@@ -131,6 +131,7 @@ nav ul li a {
 #map {
     width: 23em;
     height: 23em;
+    margin: auto;
 }
 
 #menuboard,
@@ -288,7 +289,7 @@ table {
     width: 100%;
 }
 
-#sidebar {
+# {
     margin: auto;
 }
 

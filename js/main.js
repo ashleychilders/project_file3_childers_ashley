@@ -1,5 +1,7 @@
 $( document ).ready( function() {
 
+//Code below sets h1 to change colors on mouseover and mouse out
+
   $( 'h1' ).mouseover( function() {
     $( 'h1' ).css( 'color', 'rebeccapurple' );
   } );
@@ -9,6 +11,8 @@ $( document ).ready( function() {
 
 } );
 
+//Code below is adding text to the index page below the h1 tag.
+
   $( 'h1' ).after( '<p>Voted the Best Place to host a birthday party five years in a row!</p>' );
 
   document.getElementById( 'sendform' ).addEventListener( 'click', function() {
@@ -17,8 +21,9 @@ $( document ).ready( function() {
 
   $( function() {
 
-    // Custom Easing
-    jQuery.scrollSpeed( 100, 250, 'easeOutCubic' );
+// Custom Easing for scrolling throuhg site
+
+    jQuery.scrollSpeed( 100, 400, 'easeOutCubic' );
   } );
 
   var map = new GMaps( {
@@ -35,7 +40,7 @@ map.addMarker( {
     alert( 'Pizza Planet: Great Pizza, Great Times!' );
   }
 } );
-define( [ 'async!http://maps.google.com/maps/api/js?v=3&sensor=false' ], function() {} ) ;
+//define( [ 'async!http://maps.google.com/maps/api/js?v=3&sensor=false' ], function() {} ) ;
 
 require.config( {
   paths: {
