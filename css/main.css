@@ -380,34 +380,12 @@ input[type="submit"]:hover {
         padding-left: 3em;
     }
 
-    #contactform {
-        float: right;
-        margin-top: 1em;
-        margin-right: 1em;
-        margin-bottom: 1em;
-        width: calc(100% / 5 * 2);
-    }
-
-    #contactaside {
-        float: left;
-        margin-top: 0.1em;
-        margin-left: 1em;
-        width: calc(100% / 2 - 1.5em);
-    }
-
     .icon {
         display: inline;
         margin: auto;
         width: 12%;
         height: 12%;
         padding-right: 0.4em;
-    }
-
-    .contacticon {
-        display: inline-block;
-        width: 8%;
-        height: 8%;
-        padding-right: 0.1em;
     }
 
     #menu {
@@ -470,6 +448,21 @@ input[type="submit"]:hover {
         border: solid #ffffff 0.16em;
     }
 
+    #contactform {
+        float: right;
+        margin-top: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        width: calc(100% / 4 * 2);
+    }
+
+    #contactaside {
+        float: left;
+        margin-top: 1em;
+        margin-left: 1em;
+        width: calc(100% / 3 - 2em);
+    }
+
 }
 
 @media (min-width: 850px) {
@@ -523,29 +516,6 @@ input[type="submit"]:hover {
         border: solid #4169e1 0.3em;
         margin-bottom: 0.5em;
         margin-left: 1.5em;
-    }
-
-    #contactform {
-        float: right;
-        margin-top: 1em;
-        margin-right: 1em;
-        margin-bottom: 1em;
-        width: calc(100% / 4 * 2);
-    }
-
-    #contactaside {
-        float: left;
-        margin-top: 0.1em;
-        margin-left: 1em;
-        width: calc(100% / 2 - 0.2em);
-    }
-
-    .contacticon {
-        display: inline-block;
-        float: right;
-        width: 10%;
-        height: 10%;
-        padding-right: 0.2em;
     }
 
     nav ul li a {
