@@ -220,15 +220,23 @@ nav ul li a {
     margin-top: 1em;
 }
 
-#daily tr:hover {
+#daily tr:hover,
+#food tr:hover,
+#entrees tr:hover,
+#desserts tr:hover,
+#beverages tr:hover, {
     background-color: rgba(255, 140, 0, 0.8);
 }
 
-#daily td:hover {
+#daily td:hover,
+#food tr:hover,
+#entrees tr:hover,
+#desserts tr:hover,
+#beverages tr:hover, {
     color: #ffffff;
 }
 
-#daily h2:hover {
+#daily h2:hover, {
     color: #8a2be2;
     font-size: 135%;
 }
