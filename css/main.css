@@ -89,7 +89,7 @@ nav ul li a {
 .btn {
     font-family: 'Roboto Slab', serif;
     font-size: 1em;
-    width: 14em;
+    width: 13em;
     text-align: center;
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
@@ -137,10 +137,10 @@ nav ul li a {
 
 #menuboard,
 #yummy {
-    width: 90%;
-    height: 90%;
+    width: 75%;
+    height: 75%;
     border-radius: 1em;
-    margin-left: 1em;
+    margin-left: 2.5em;
     margin-top: 0.5em;
     border: solid #ffffff 0.16em;
 }
@@ -360,7 +360,8 @@ input[type="submit"]:hover {
 }
 
 @media (min-width: 650px) {
-    #content {
+    #content,
+    #menucontent {
         margin-left: 2em;
         margin-right: 2em;
     }
@@ -369,6 +370,12 @@ input[type="submit"]:hover {
         width: 75%;
         height: 75%;
         padding-left: 3.5em;
+    }
+
+    #menusidebar {
+        width: 85%;
+        height: 85%;
+        padding-left: 3em;
     }
 
     #contactform {
@@ -451,8 +458,14 @@ input[type="submit"]:hover {
         width: 13em;
     }
 
-    #menu {
-        padding-left: 0.3em;
+    #menuboard,
+    #yummy {
+        width: 55%;
+        height: 55%;
+        border-radius: 1em;
+        margin-left: 9em;
+        margin-top: 0.5em;
+        border: solid #ffffff 0.16em;
     }
 
 }
@@ -467,8 +480,29 @@ input[type="submit"]:hover {
         width: calc(100% / 3.5 * 2);
     }
 
-    #sidebar {
+    #menucontent {
+        float: right;
+        margin-top: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        margin-left: 0.5em;
+        width: calc(100% / 2 * 2);
+    }
+
+    #sidebar,
+    #menusidebar {
         float: left;
+    }
+
+    #menuboard,
+    #yummy {
+        width: 90%;
+        height: 90%;
+        border-radius: 1em;
+        margin-bottom: 0.5em;
+        margin-left: 1em;
+        margin-top: 0.5em;
+        border: solid #ffffff 0.16em;
     }
 
     .btn {
@@ -529,7 +563,8 @@ input[type="submit"]:hover {
         font-size: 85%;
     }
 
-    #sidebar {
+    #sidebar,
+    #menusidebar {
         float: left;
         margin-top: 1em;
         margin-left: 1em;
