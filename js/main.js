@@ -1,8 +1,7 @@
 $( document ).ready( function() {
 
-  $( function() {
-    $( 'ul#menu li img' ).bubbleup();
-} );
+//  $( function() {
+//    $( 'ul#menu li img' ).bubbleup();
 
   $( function() {
 
