@@ -13,7 +13,7 @@ $( document ).ready( function() {
 
 //Code below is adding text to the index page below the h1 tag.
 
-  $( 'h1' ).after( '<p>Voted the Best Place to host a birthday party five years in a row!</p>' );
+  $( 'h1' ).after( '<p>Voted Best Place in Florida for birthday parties five years in a row!</p>' );
 
   document.getElementById( 'sendform' ).addEventListener( 'click', function() {
   alert( 'Thank you for submitting this form. Someone will be in touch with you within 24 hours!' );
@@ -40,6 +40,7 @@ map.addMarker( {
     alert( 'Pizza Planet: Great Pizza, Great Times!' );
   }
 } );
+
 //define( [ 'async!http://maps.google.com/maps/api/js?v=3&sensor=false' ], function() {} ) ;
 
 require.config( {
