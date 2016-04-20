@@ -221,18 +221,12 @@ nav ul li a {
 }
 
 #daily tr:hover,
-#food tr:hover,
-#entrees tr:hover,
-#desserts tr:hover,
-#beverages tr:hover, {
+#menucontent tr:hover {
     background-color: rgba(255, 140, 0, 0.8);
 }
 
 #daily td:hover,
-#food tr:hover,
-#entrees tr:hover,
-#desserts tr:hover,
-#beverages tr:hover, {
+#menucontent td:hover {
     color: #ffffff;
 }
 
