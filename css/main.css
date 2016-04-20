@@ -295,6 +295,10 @@ td {
         margin-right: 2em;
     }
 
+    #menu-wrapper {
+        margin: auto;
+    }
+
     #pizzaplanet {
         width: 25%;
         height: 25%;

@@ -8,13 +8,13 @@ $( document ).ready( function() {
 
   var map = new GMaps( {
   el: '#map',
-  lat: 36.6222889,
-  lng: -119.3229801
+  lat: 28.3575294,
+  lng: -81.5582714
 } );
 
 map.addMarker( {
-  lat: 36.6222889,
-  lng: -119.3229801,
+  lat: 28.3575294,
+  lng: -81.5582714,
   title: 'Pizza Planet',
   click: function( e ) {
     alert( 'Pizza Planet: Great Pizza, Great Times!' );
