@@ -1,7 +1,7 @@
 $( document ).ready( function() {
 
   $( function() {
-    $( 'ul#photos li img' ).bubbleup();
+    $( 'ul#menu li img' ).bubbleup();
 } );
 
   $( function() {
