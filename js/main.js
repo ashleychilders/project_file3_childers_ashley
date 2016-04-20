@@ -1,5 +1,20 @@
 $( document ).ready( function() {
 
+  $( 'h1' ).mouseover( function() {
+    $( 'h1' ).css( 'color', 'rebeccapurple' );
+  } );
+  $( 'h1' ).mouseout( function() {
+    $( 'h1' ).css( 'color', 'darkorange' );
+  } );
+
+} );
+
+  $( 'h1' ).after( '<p>Voted the Best Place to host a birthday party five years in a row!</p>' );
+
+  document.getElementById( 'sendform' ).addEventListener( 'click', function() {
+  alert( 'Thank you for submitting this form. Someone will be in touch with you within 24 hours!' );
+} );
+
   $( function() {
 
     // Custom Easing
@@ -32,5 +47,4 @@ require.config( {
       exports: 'GMaps'
     }
   }
-} );
 } );

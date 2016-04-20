@@ -129,8 +129,8 @@ nav ul li a {
 }
 
 #map {
-    width: 22em;
-    height: 22em;
+    width: 23em;
+    height: 23em;
 }
 
 #menuboard,
@@ -272,6 +272,17 @@ nav ul li a {
     margin-top: 1em;
 }
 
+aside #contact {
+    background-color: #ba2be2;
+    border: solid #ffffff 0.3em;
+    border-radius: 5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding: 0.2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -286,6 +297,64 @@ td {
     padding: 8px;
     text-align: left;
     border-top: 0.2em solid #dddddd;
+}
+
+#contactform h2 {
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    size: 1.6em;
+}
+
+#contactform h2:hover {
+    color: #8a2be2;
+}
+
+form {
+    width: 75%;
+    margin-top: 1em;
+    margin-left: 2em;
+    padding: 1em;
+    background-color: rgb(255, 140, 0);
+    -webkit-border-radius: 3em 3em 3em 3em;
+    border-radius: 3em 3em 3em 3em;
+    -webkit-box-shadow: 0.2em 0.2em 0.2em 0.2em #d4d4d4;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em #ffffff;
+}
+
+label {
+    display: block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+    color: #f6f6ee;
+    padding: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 0.1em #393838;
+    padding: 0.8em;
+    margin-left: 1em;
+}
+
+#formbuttons {
+    margin-left: 1em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+input[type="submit"] {
+    padding: 0.8em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 0.8em;
+    background-color: #8a2be2;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #524040;
 }
 
 @media (min-width: 650px) {
