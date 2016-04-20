@@ -46,20 +46,15 @@ h3 {
     font-style: normal;
 }
 
-#menu {
-    background-color: #ff8c00;
-    border-radius: 2em;
-    padding: 0.02em;
-}
-
 #menu ul li {
     display: inline;
 }
 
 .icon {
-    width: 8%;
-    height: 8%;
-    padding-right: 0.8em;
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+    padding-right: 0.3em;
 }
 
 p,
@@ -127,9 +122,10 @@ nav ul li a {
 #inside {
     width: 85%;
     height: 85%;
-    margin-left: 3.5em;
     border-radius: 0.8em;
     border: solid #4169e1 0.3em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
 }
 
 #menuboard,
@@ -137,7 +133,7 @@ nav ul li a {
     width: 90%;
     height: 90%;
     border-radius: 1em;
-    margin-left: 1.5em;
+    margin-left: 1em;
     margin-top: 0.5em;
     border: solid #ffffff 0.16em;
 }
@@ -188,7 +184,7 @@ nav ul li a {
     border: solid #4169e1 0.3em;
     text-align: center;
     margin-left: 1em;
-    padding: 0.1em 1.5em 0.8em;
+    padding: 0.1em 0.4em 1em;
     margin-right: 1em;
     margin-bottom: 0.5em;
 }
@@ -201,7 +197,6 @@ nav ul li a {
     color: #ff8c00;
 }
 
-#photos,
 #happyhour {
     margin-top: 0.5em;
     margin-left: 1em;
@@ -209,6 +204,13 @@ nav ul li a {
     background-color: #ba2be2;
     border-radius: 3em;
     border: solid #ff8c00 0.3em;
+}
+
+#photos {
+    background-color: #ba2be2;
+    border-radius: 3em;
+    border: solid #ff8c00 0.3em;
+    margin-top: 1em;
 }
 
 #daily tr:hover {
@@ -270,11 +272,15 @@ table {
     width: 100%;
 }
 
+#sidebar {
+    margin: auto;
+}
+
 th,
 td {
     padding: 8px;
     text-align: left;
-    border-bottom: 0.2em solid #dddddd;
+    border-top: 0.2em solid #dddddd;
 }
 
 @media (min-width: 650px) {
@@ -301,11 +307,6 @@ td {
         font-size: 90%;
     }
 
-    #photos ul li {
-        width: 95%;
-        margin: auto;
-    }
-
     #sidebar {
         margin-left: 1em;
     }
@@ -324,7 +325,7 @@ td {
         margin-left: 1em;
         margin-right: 1em;
         margin-top: 1em;
-        padding: 0.4em 3.6em 0.4em 3.6em;
+        padding: 0.4em 3.8em 0.4em 3.8em;
     }
 
     nav ul li a {
