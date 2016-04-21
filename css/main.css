@@ -50,12 +50,19 @@ h3 {
     display: inline;
 }
 
-.icon,
-.contacticon {
+.icon {
     display: inline-block;
     width: 16%;
     height: 16%;
     padding-right: 0.3em;
+}
+
+.cicon {
+    display: inline;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    padding-right: 0.1em;
 }
 
 p,
@@ -287,6 +294,16 @@ aside #contact {
     margin-bottom: 1em;
 }
 
+#contactinfo {
+    margin-bottom: 0.5em;
+    margin-left: 2em;
+}
+
+#contactinfo p,
+#contactinfo h2 {
+    color: #ffffff;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -315,15 +332,14 @@ td {
 }
 
 form {
-    width: 75%;
     margin-top: 1em;
-    margin-left: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
     padding: 1em;
     background-color: rgb(255, 140, 0);
     -webkit-border-radius: 3em 3em 3em 3em;
     border-radius: 3em 3em 3em 3em;
-    -webkit-box-shadow: 0.2em 0.2em 0.2em 0.2em #d4d4d4;
-    box-shadow: 0.1em 0.1em 0.1em 0.1em #ffffff;
+    border: solid #ffffff 0.3em;
 }
 
 label {
@@ -339,7 +355,8 @@ input[type="email"],
 textarea {
     border: 0.1em #393838;
     padding: 0.8em;
-    margin-left: 1em;
+    margin-left: 0.5em;
+    width: 90%;
 }
 
 #formbuttons {
@@ -355,6 +372,7 @@ input[type="submit"] {
     border-radius: 0.8em;
     background-color: #8a2be2;
     color: white;
+    font-size: 1.2em;
 }
 
 input[type="submit"]:hover {
@@ -425,6 +443,23 @@ input[type="submit"]:hover {
         margin-left: 1em;
     }
 
+    #contactform {
+        float: right;
+        margin-top: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        width: calc(100% / 4 * 2);
+    }
+
+    #contactsidebar {
+        float: left;
+        margin-top: 1em;
+        margin-left: 1em;
+        width: calc(100% / 3.5 - 1em);
+    }
+
+
+
 }
 
 @media (min-width: 700px) {
@@ -456,11 +491,11 @@ input[type="submit"]:hover {
         width: calc(100% / 4 * 2);
     }
 
-    #contactaside {
+    #contactsidebar {
         float: left;
         margin-top: 1em;
         margin-left: 1em;
-        width: calc(100% / 3 - 2em);
+        width: calc(100% / 2.5 - 2em);
     }
 
 }
@@ -545,6 +580,21 @@ input[type="submit"]:hover {
 
     #buttons {
         margin-bottom: 2em;
+    }
+
+    #contactform {
+        float: right;
+        margin-top: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        width: calc(100% / 2.2 * 2);
+    }
+
+    #contactsidebar {
+        float: left;
+        margin-top: 1em;
+        margin-left: 1em;
+        width: calc(100% / 2.5 - 1em);
     }
 
 }

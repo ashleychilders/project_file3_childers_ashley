@@ -15,42 +15,10 @@ $( document ).ready( function() {
 
   $( 'h1' ).after( '<p>Voted Best Place in Florida for birthday parties five years in a row!</p>' );
 
-  document.getElementById( 'sendform' ).addEventListener( 'click', function() {
-  alert( 'Thank you for submitting this form. Someone will be in touch with you within 24 hours!' );
-} );
-
   $( function() {
 
 // Custom Easing for scrolling throuhg site
 
     jQuery.scrollSpeed( 100, 400, 'easeOutCubic' );
+
   } );
-
-  var map = new GMaps( {
-  el: '#map',
-  lat: 28.3575294,
-  lng: -81.5582714
-} );
-
-map.addMarker( {
-  lat: 28.3575294,
-  lng: -81.5582714,
-  title: 'Pizza Planet',
-  click: function( e ) {
-    alert( 'Pizza Planet: Great Pizza, Great Times!' );
-  }
-} );
-
-//define( [ 'async!http://maps.google.com/maps/api/js?v=3&sensor=false' ], function() {} ) ;
-
-require.config( {
-  paths: {
-    'googlemapsapi': 'googlemapsapi'
-  },
-  shim: {
-    gmaps: {
-      deps: [ 'googlemapsapi' ],
-      exports: 'GMaps'
-    }
-  }
-} );

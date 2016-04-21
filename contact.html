@@ -38,43 +38,39 @@
                 <h2>Send us a message to book your next party or event at Pizza Planet!</h2>
 
                 <label for="name">First Name:</label>
-                <input type="text" name="firstName" autocomplete="on" id="firstName" class="inputsize" size="20" autofocus/>
+                <input type="text" name="firstName" autocomplete="on" id="firstName" class="inputsize" size="25" autofocus/>
 
                 <label for="lname">Last Name:</label>
-                <input type="text" name="lastName" autocomplete="on" id="lastName" class="inputsize" size="20"/>
+                <input type="text" name="lastName" autocomplete="on" id="lastName" class="inputsize" size="25"/>
 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" class="inputsize" size="20">
+                <input type="email" id="email" name="email" class="inputsize" size="25">
 
                 <label for="Message">Message:</label>
-                <textarea name="message" id="message" rows="10" cols="20" class="messagearea" placeholder="Type additional information here"></textarea>
+                <textarea name="message" id="message" rows="10" cols="25" class="messagearea" placeholder="Type additional information here"></textarea>
 
     		    <div id="formbuttons">
                     <input type="submit" name="form" id="sendform" value="Submit Form" />
                 </div>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="https://www.facebook.com/ashley.childers2" target="_blank"><img src="img/facebook.png" alt="facebook" title="facebook" class="cicon"/></a></li>
+                        <li><a href="https://instagram.com/ashley_childers/" target="_blank"><img src="img/instagram.png" alt="instagram" title="instagram" class="cicon"/></a></li>
+                        <li><a href= "mailto:ashley.childers@gmail.com" target="_blank"><img src="img/email.png" alt="email" title="email" class="cicon"/></a></li>
+                        <li><a href="tel:18439101441"><img src="img/phone.png" alt="call" title="call" class="cicon"/></a></li>
+                    </ul>
+                </nav>
         </form>
-        <nav id="menu">
-            <ul>
-                <li><a href="https://www.linkedin.com/in/rebeccaashleychilders" target="_blank"><img src="img/linkedin.png" alt="linkedin" title="linkedin" class="icon"/></a></li>
-                <li><a href="https://www.facebook.com/ashley.childers2" target="_blank"><img src="img/facebook.png" alt="facebook" title="facebook" class="icon"/></a></li>
-                <li><a href="https://instagram.com/ashley_childers/" target="_blank"><img src="img/instagram.png" alt="instagram" title="instagram" class="icon"/></a></li>
-                <li><a href= "mailto:ashley.childers@gmail.com" target="_blank"><img src="img/email.png" alt="email" title="email" class="icon"/></a></li>
-                <li><a href="tel:18439101441"><img src="img/phone.png" alt="call" title="call" class="icon"/></a></li>
-            </ul>
-        </nav>
     </main>
-    <aside id="contactside">
-      <div id="map"></div>
-      <section id="contact">
-          <h2>Pizza Planet</h2>
-          <p>1-800-345-1212</p>
-          <p>Hours:<time>11:00am-8:30pm</time></p>
-          <p>Open 7 Days a Week!</p>
-      </section>
+    <aside id="contactsidebar">
+        <section id="contactinfo">
+            <h2>Pizza Planet</h2>
+            <p>1-800-345-1212</p>
+            <p>Hours: <time>11:00am-8:30pm</time></p>
+            <p>351 S Studio Dr, Orlando, FL 32830</p>
+        </section>
      </aside>
     <script src="js/jquery-2.2.3.min.js"></script>
-    <script src="http://maps.google.com/maps/api/js"></script>
-    <script src="js/gmaps.js"></script>
     <script src="js/jQuery.scrollSpeed.js"></script>
     <script src="js/main.js"></script>
     </div>
