@@ -17,11 +17,11 @@ http://ashley-childers.com/pizzaplanet
 - http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_mouseover_mouseout
     - I used this site for assistance with creating my custom jQuery for changing the h1 font color on mouseover and mouseout on my index page.
 - https://github.com/nathco/jQuery.scrollSpeed
-    - I used this plug in to change the scroll speed on my website. This is seen on all pages when scrolling. 
+    - I used this plug in to change the scroll speed on my website. This is seen on all pages when scrolling.
 
 
 **Comments**
 
-When looking at my code on canary it's showing as an error to the .js file saved from online to this:
+1.) When looking at my code on Canary it's showing as an error to the .js file saved from online to this:
 jquery-2.2.3.min.js:3 Uncaught TypeError: n.easing[this.easing] is not a function
 I didn't modify the settings in this file so I wasn't sure what to do with this. I left the file as it was.
