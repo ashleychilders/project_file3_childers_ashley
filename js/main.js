@@ -18,7 +18,7 @@ $( document ).ready( function() {
   $( function() {
 
 // Custom Easing for scrolling throuhg site
-    jQuery.scrollSpeed( 150, 1000 );
+    jQuery.scrollSpeed( 150, 1000, 'easeOutCubic' );
 
 // This is used to place the alert at the top of the form about customized options
     $( '.minialert' ).miniAlert();
