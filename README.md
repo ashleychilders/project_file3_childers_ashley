@@ -25,3 +25,7 @@ http://ashley-childers.com/pizzaplanet
 1.) When looking at my code on Canary it's showing as an error to the .js file saved from online to this:
 jquery-2.2.3.min.js:3 Uncaught TypeError: n.easing[this.easing] is not a function
 I didn't modify the settings in this file so I wasn't sure what to do with this. I left the file as it was.
+
+2.) I created custom javascript to add text below the h1 on my index page.
+
+3.) I used mouseover and mouseout functions to change the h1 text color on the index page. This has a smoother transition than using hover. 
