@@ -2,7 +2,7 @@
 https://github.com/ashleychilders/project_file3_childers_ashley
 
 ## Link to Assignment online
-http://ashley-childers.com/pizzaplanet
+http://ashley-childers.com/pizzaplanet/
 
 ### Resources
 
@@ -28,4 +28,4 @@ I didn't modify the settings in this file so I wasn't sure what to do with this.
 
 2.) I created custom javascript to add text below the h1 on my index page.
 
-3.) I used mouseover and mouseout functions to change the h1 text color on the index page. This has a smoother transition than using hover. 
+3.) I used mouseover and mouseout functions to change the h1 text color on the index page. This has a smoother transition than using hover.
