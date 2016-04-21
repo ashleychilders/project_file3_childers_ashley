@@ -1,5 +1,5 @@
 ## Link to Assignment on GitHub
-https://github.com/ashleychilders/project_resume_chiders_ashley
+https://github.com/ashleychilders/project_file3_childers_ashley
 
 ## Link to Assignment online
 http://ashley-childers.com/pizzaplanet
@@ -10,15 +10,16 @@ http://ashley-childers.com/pizzaplanet
 	- I used this site to help with creating my nav buttons.
 - http://www.color-hex.com/color/f4e7e7
     - I used this site to choose colors for my nav buttons and sections.
-- https://hpneo.github.io/gmaps/examples/markers.html
-    - I used this site to create the Google Maps on my contact page. I tried several different jQuery plugins but could not get them to work. I finally was able to get the map to work with this one.
+- http://www.minijs.com/plugins/10/alert
+    - I used this plugin to create an alert on my contact page above the form. This is used to alert the customer that customizing the menu is an option.
 - https://www.iconfinder.com/iconsets/happily-colored-snlogo
 	- I used this site for the social media icons.
-- http://www.unheap.com/user-interface/scrolling/anchorscroll-js-plugin-smooth-scrolling-anchor-targets/
-	- I used this site for adding the jQuery plugin for smooth scrolling on my site. This can be seen when clicking on the nav buttons.
-- http://srobbin.com/jquery-plugins/backstretch/
+- http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_mouseover_mouseout
+    - I used this site for assistance with creating my custom jQuery for changing the h1 font color on mouseover and mouseout on my index page.
 
 
 **Comments**
 
-With the google map plug-in, this is showing an error when viewing with developer tools but when removing items it doesn't work properly. I am not quite sure what is causing the error and ran out of time to figure it out.
+When looking at my code on canary it's showing as an error to the .js file saved from online to this:
+jquery-2.2.3.min.js:3 Uncaught TypeError: n.easing[this.easing] is not a function
+I didn't modify the settings in this file so I wasn't sure what to do with this. I left the file as it was.
