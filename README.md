@@ -16,6 +16,8 @@ http://ashley-childers.com/pizzaplanet
 	- I used this site for the social media icons.
 - http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_mouseover_mouseout
     - I used this site for assistance with creating my custom jQuery for changing the h1 font color on mouseover and mouseout on my index page.
+- https://github.com/nathco/jQuery.scrollSpeed
+    - I used this plug in to change the scroll speed on my website. This is seen on all pages when scrolling. 
 
 
 **Comments**
