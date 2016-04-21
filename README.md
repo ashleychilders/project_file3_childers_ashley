@@ -2,7 +2,7 @@
 https://github.com/ashleychilders/project_resume_chiders_ashley
 
 ## Link to Assignment online
-http://ashley-childers.com/pizzaplanetfinal
+http://ashley-childers.com/pizzaplanet
 
 ### Resources
 
@@ -21,4 +21,4 @@ http://ashley-childers.com/pizzaplanetfinal
 
 **Comments**
 
-With the google map plug-in, this is showing an error when viewing with developer tools but when removing items it doesn't work properly. I am not quite sure what is causing the error and ran out of time to figure it out. 
+With the google map plug-in, this is showing an error when viewing with developer tools but when removing items it doesn't work properly. I am not quite sure what is causing the error and ran out of time to figure it out.
